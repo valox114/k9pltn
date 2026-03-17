@@ -6,7 +6,7 @@ body, html {
     height: 100%;
     overflow-x: hidden; /* Prevents horizontal scrolling */
     background-color: black;
-    background-image: url('images/lspd.png'); /* Background image */
+    background-image: url('images/darkbg-login.png'); /* Background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

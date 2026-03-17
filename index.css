@@ -128,7 +128,7 @@ iframe {
 .sidebarlist {
   display: flex;
   flex-direction: column; /* Stack items vertically */
-  height: 750px;           /* Fill the page vertically */
+  height: 730px;           /* Fill the page vertically */
   margin: 0;
   padding: 0;
   list-style: none;
