@@ -125,57 +125,15 @@ iframe {
     
 }
 
-.collapsible-content {
-    max-height: 0; /* Collapsed by default */
-    overflow: hidden;
-    transition: max-height 0.3s ease, padding 0.3s ease;
-    padding-left: 20px;
+.sidebarlist {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  height: 750px;           /* Fill the page vertically */
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-/* Submenu Links */
-.collapsible-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    padding-left: 400px; /* Indentation (Out of*/
-}
-
-.collapsible-content a:hover {
-    background-color: #3a3a5e;
-    transition: all 0.3s ease;
-}
-
-/* Collapsible Button */
-.collapsible-btn {
-    cursor: pointer;
-    display: block;
-    color: white;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-/* Active State for Collapsible Menu */
-.collapsible.active .collapsible-content {
-    max-height: 200px; /* Adjust this value based on submenu size */
-    padding-bottom: 10px;
-}
-
-.hr {
-    
-    border: solid 1px #0e176e;
-    margin-top: 15px;
-    width: 85%;
-}
-
-
-#arrow {
-    margin-left: 7px;
-}
-
-#box {
-    margin-right: 2px;
-    font-size: 14px;
-    text-shadow: #0b0624;
+.sidebarlist li:last-child {
+  margin-top: auto;       /* Push the last item to the bottom */
 }
